@@ -1,5 +1,5 @@
 {
-	"workbench.colorTheme": "Default Dark Modern",
+	"workbench.colorTheme": "Space Ocean Kit Refined",
 	"python-envs.pythonProjects": [],
-	"python-envs.defaultEnvManager": "ms-python.python:system"
+	"python-envs.defaultEnvManager": "ms-python.python:venv"
 }
