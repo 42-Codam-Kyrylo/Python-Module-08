@@ -16,7 +16,7 @@ def check_matrix_status() -> None:
             print("The machines can see everything you install.\n")
 
             print("To enter the construct, run:")
-            print("python -m venv matrix_env")
+            print("python3 -m venv matrix_env")
             print("source matrix_env/bin/activate # On Unix")
             print("matrix_env\\Scripts\\activate # On Windows\n")
             print("Then run this program again.")
@@ -31,7 +31,7 @@ def check_matrix_status() -> None:
 
             print("SUCCESS: You're in an isolated environment!")
             print("Safe to install packages without affecting")
-            print("the global system.")
+            print("the global system.\n")
             print(f"Package installation path:\n{pkg_path}")
 
     except Exception as e:
